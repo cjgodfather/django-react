@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 2fr;
+}
+
+.navbar {
+  grid-column: 1/4;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 20px;
+}
+
+.footer {
+  grid-column: 1/4;
+}
