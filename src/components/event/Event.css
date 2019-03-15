@@ -1,0 +1,5 @@
+.event {
+  border: 1px solid black;
+  background-color: rgba(150, 120, 120, 0.2);
+  padding: 10px;
+}

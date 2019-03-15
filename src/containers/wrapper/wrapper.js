@@ -1,11 +1,13 @@
 import React from "react";
-import classes from "../wrapper/wrapper.css";
+import classes from "./wrapper.css";
+import EventList from "../../components/eventlist/EventList";
+import Navbar from "../../components/navbar/navbar";
 
 const Wrapper = props => {
   return (
     <div className={classes.wrapper}>
-      <div className={classes.navbar}>Navbar</div>
-      <main className={classes.main}>Events</main>
+      <Navbar className={classes.navbar} />
+      <EventList className={classes.eventlist} />
       <footer className={classes.footer}>footer</footer>
     </div>
   );
